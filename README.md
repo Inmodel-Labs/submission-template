@@ -4,15 +4,15 @@
 <!-- e.g., MCP Workflow AI, Traffic AI, etc. -->
 
 ## Problem Statement
-<!-- Explain the problem you are solving briefly -->
+<!-- Explain the problem you are solving# 🚛 Traffic AI: Real-time Vehicle Detection
 
-## Solution
-<!-- Describe what you built -->
+## Project Overview
+This project implements a YOLOv8-based vehicle detection system for urban traffic monitoring. It analyzes RTSP streams and provides real-time counts.
 
-## Features
-- Feature 1
-- Feature 2
-- Feature 3
+## Architecture
+- **Input**: RTSP Camera Stream
+- **Processing**: YOLOv8n (OpenVINO optimized)
+- **Output**: REST API + Streamlit Dashboard
 
 ## Tech Stack
 - **AI**: <!-- e.g., GPT-4o, Claude 3.5, YOLOv8 -->
