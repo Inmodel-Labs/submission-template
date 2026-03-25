@@ -1,34 +1,37 @@
-# Project Name
+# 🚛 Traffic AI: Real-time Vehicle Detection
 
-## Problem Track
-<!-- e.g., MCP Workflow AI, Traffic AI, etc. -->
+## 📋 Project Submission
 
-## Problem Statement
-<!-- Explain the problem you are solving# 🚛 Traffic AI: Real-time Vehicle Detection
+**Project Name**: <!-- e.g., VisionFlow 2026 -->
+**Team Members**: <!-- Name 1, Name 2, etc. -->
+**Track**: <!-- e.g., Traffic AI -->
 
-## Project Overview
-This project implements a YOLOv8-based vehicle detection system for urban traffic monitoring. It analyzes RTSP streams and provides real-time counts.
+---
 
-## Architecture
-- **Input**: RTSP Camera Stream
-- **Processing**: YOLOv8n (OpenVINO optimized)
-- **Output**: REST API + Streamlit Dashboard
+## 🚀 Project Overview
+[Briefly describe the problem you decided to solve and your core solution.]
 
-## Tech Stack
-- **AI**: <!-- e.g., GPT-4o, Claude 3.5, YOLOv8 -->
-- **Backend**: <!-- e.g., FastAPI, Node.js -->
-- **APIs**: <!-- e.g., GitHub, Slack, MCP -->
-- **Database**: <!-- e.g., ChromaDB, MongoDB -->
+## 🏗️ Architecture
+- **Inference**: <!-- e.g., YOLOv8n on Edge -->
+- **Data Pipeline**: <!-- e.g., RTSP Stream to MQTT -->
+- **Frontend**: <!-- e.g., Streamlit Dashboard -->
 
-## How It Works
-<!-- Explain the system flow from input to output -->
+## 📹 Demo
+[Link to your Loom/YouTube demo or a GIF showing it in action.]
 
-## Demo Instructions
-1. Clone the repo.
-2. Run `pip install -r requirements.txt`.
-3. Set your environment variables (API keys).
-4. Run `python app.py`.
+---
 
-## Output Examples
-<!-- Link to screenshots or provide sample outputs here -->
-![Screenshot](./screenshots/main_ui.png)
+## ✅ Pre-Submission Checklist
+- [ ] **Code Runs**: Everything in `/src` executes without error.
+- [ ] **Dependencies**: All external libraries are listed in `requirements.txt`.
+- [ ] **Environment**: Provided a `.env.example` if API keys are required.
+- [ ] **Screenshots**: Added visual proof to the `/screenshots` folder.
+- [ ] **Demo Instructions**: README clearly explains how to run the prototype.
+
+---
+
+## 🛠️ How to Run Locally
+1. Clone this repo.
+2. `pip install -r requirements.txt`
+3. Add your keys to `.env`.
+4. Run `python src/main.py`.
